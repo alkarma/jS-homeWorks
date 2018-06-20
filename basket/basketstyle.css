@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
+.container{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+.prod{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid #444444;
+}
+.name_prod{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 26px;
+	color: #444444;
+}
+.price_prod{
+	position: absolute;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 26px;
+	color: #444444;
+	bottom: 5px;
+	left: 5px;
+}
+.price_prod:before{
+	content: "Price: ";
+}
+.buy_but{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+}
